@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is an Ecomerce Project for Jhalokatoi Express.">
+    <title>Ecomerce Project</title>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- navber start here -->
+    <div id="navber-icon">
+        <i class="fas fa-bars fa-2x"></i>
+    </div>
+<nav id="menu" class="hidden" >
+   
+    <ul class="nav_upper flex_space_around">
+        <li class="nav_list"><a href="index.html"
+            class="nav_link">Home</a></li>
+        <li class="nav_list"><a href="register.html"
+            class="nav_link">Register</a></li>
+        <li class="nav_list"><a href="login.html"
+            class="nav_link">Login</a></li>
+        <li class="nav_list"><a href="/index.html"
+            class="nav_link">Logout</a></li>
+        <li class="nav_list"><a href="contact.html"
+            class="nav_link">Contact</a></li>
+        <li class="nav_list"><a href="profile.html"
+            class="nav_link"> <img class="profile_icon" src="./image/bayzed khan.jpg"
+            alt="profile icon"> </a></li>
+    </ul>
+    <ul class="nav_lower flex_space_around ">
+        <li class="nav_list"><a href="/index.html"
+            class="nav_brand nav_link">Jhalokati Express.</a></li>
+        <li class="nav_list"><a href="card.html"
+            class="nav_link">
+        <span>
+            <i class="fa-solid fa-cart-shopping"></i>
+            
+        </span>
+        cart 2 products - $124.40s
+        </a></li>
+    </ul>
+
+</nav>
+ <!-- navber ends here -->
+
+ <main>
+    <section class="contact_page">
+        <h2 class="contact_page_title text_center">Contact us</h2> 
+   <div class="contact_container flex_center ">
+    <form action="" class="form card" >
+        <div class="form_control flex_center">
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="Type Name" required 
+            autocomplete="name" >
+        </div>
+
+        <div class="form_control flex_center">
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Type Email" required 
+            autocomplete="email" >
+        </div>
+
+        <div class="form_control flex_center">
+            <label for="about">Messege</label>
+           <textarea name="about" id="about">
+
+           </textarea>
+        </div>
+
+        <div class="form_control flex_center 
+        form_btn_field ">
+           <button type="submit" class="btn btn_contact" >Submit</button>
+        </div>
+    </form>
+    <div class="contact_address flex_space_around">
+    <address>
+        <h4>Address</h4>
+        <p>123 High street</p>
+        <p>tampere,Finland</p>
+        <br/>
+
+        <span>Call :</span>
+        <a href="tell::102469569">+142895621</a>
+    </address>
+    <iframe 
+    class="contact_map"
+    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11918.573984996341!2d90.51959558677727!3d23.766659845923904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1675993446140!5m2!1sen!2sbd" 
+     style="border:0;" allowfullscreen="" 
+    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+   </div>
+   </div>
+</section>
+ </main>
+
+<!-- footer start here -->
+<footer class="footer flex_space_around" >
+<div>
+    <label for="subscribe">Subscribe NewsLetter :</label>
+<input type="email"
+name="subscribe"
+id="subscribe"
+placeholder="Your Email Addres"
+>
+<button class="btn btn-subscribe" >Subscribe</button>
+</div>
+
+<div>
+    <p>&copy;Copyrights2023 Jhalokati Express.All rights reservt</p>
+</div>
+</footer>
+<!-- footer ends here -->
+<script src="./scripts/index.js"></script>
+</body>
+</html>
